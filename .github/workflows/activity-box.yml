@@ -13,6 +13,6 @@ jobs:
       - uses: JasonEtco/activity-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          GITHUB_TOKEN: ${{ secrets.GIST_PERMISSION_TOKEN_2 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: ardakazanci
-          GIST_ID: 620a025fee39ed9e8d065a96268cd5c1
+          GIST_ID: 52f32da23888f608b4b22324a324f084
